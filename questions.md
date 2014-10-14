@@ -62,9 +62,11 @@
 
 1. Calculul combinărilor recursiv
 
-    1, k = 1
-    n, k = n
-    C(n - 1, k - 1) + C(n - 1, k - 1)
+```
+1, k = 1
+n, k = n
+C(n - 1, k - 1) + C(n - 1, k - 1)
+```
 
 2. n! rec
 
