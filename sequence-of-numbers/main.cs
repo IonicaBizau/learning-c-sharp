@@ -7,8 +7,8 @@
  * */
 using System;
 
-namespace Secvente {
-    class Secvente {
+namespace Sequence {
+    class Sequence {
 
         static void printNumber (int x, bool end) {
             Console.Write("{0}" + (end ? "\n" : ", "), x);
