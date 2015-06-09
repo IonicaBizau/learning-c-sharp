@@ -1,0 +1,25 @@
+# Operator Overloading
+
+
+## Arithmetic
+
+```cs
+public static string operator + (Token t1, Token t2) {
+    return t1.name + " _ " + t2.name;
+}
+```
+
+## Relational
+
+ - `Equals` should be overriden
+ - `GetHashCode` is overriden if `Equals` is overriden
+
+## Logic
+
+ - cannot be overloaded
+
+## Conversion
+
+```cs
+public static explicit operator Time (Token t1) { ... }
+```
