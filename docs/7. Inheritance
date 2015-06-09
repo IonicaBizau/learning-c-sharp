@@ -1,0 +1,120 @@
+# Inheritance
+
+## Extending base classes
+
+```cs
+class Token {
+    // ...
+}
+
+class CommentToken : Token {
+    // Extended from Token
+}
+```
+
+A private constructor cannot be accessed from a derived class. Contructor
+declaration should use `base`
+
+```cs
+class Token {
+    protected Token (string name) {
+    }
+    // ...
+}
+
+class CommentToken : Token {
+    public CommentToken (string name) : base (name) {}
+}
+```
+
+`private` construcotrs cannot be accessed from derived classes.
+
+
+## Virtual methods
+
+```cs
+class Token {
+    // ...
+    public int LineNumber () { ... }
+    public virtual string Name () { ... }
+}
+```
+
+ - `virtual` methods are polymorhpic.
+ - Cannot be declared as `static` or `private`.
+
+## Methods Overriding
+
+```cs
+class Token {
+    // ...
+    public virtual string Name () { ... }
+}
+
+class CommentToken : Token {
+    // ...
+    public override string Name () { ... }
+}
+```
+
+ - should have the same signature
+ - it's possible to override an overrided method
+ - an overrided method cannot be declared `virtual`
+ - an overrided method cannot be declared `static` or `private`
+
+Using `new` can *hide* methods:
+
+
+```cs
+class A {
+    public virtual void Foo () { ... }
+}
+class B : A {
+    public override void Foo () { ... }
+}
+class C : B {
+    new public virtual void Foo () { ... }
+}
+class D : C {
+    public override void Foo () { ... }
+}
+```
+
+## Using interfaces
+
+```cs
+interface IToken {
+    int LineNumber ();
+    string Name ();
+}
+```
+
+ - without access fields
+ - methods without bodies
+ - generally, the interface names start with `I`
+ - cannot be sealed
+ - cannot be instantiated
+ - cannot contain implementation
+ - cannot declare non-`public` members
+ - cannot extend non-interfaces
+
+## Abstract classes
+
+```cs
+abstract class Token {
+    ...
+}
+class Test () {
+    static void Main () {
+        new Token();
+    }
+}
+```
+
+ - cannot be sealed
+ - cannot be instantiated
+ - abstract methods are virtual
+ - overrided methods can override abstract methods in derived classes
+ - abstract methods can override virtual methods in derived classes
+ - abstract methods can override overrided methods in derived classes
+
