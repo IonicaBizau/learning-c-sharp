@@ -1,4 +1,4 @@
-# Learning C#
+# Learning C# 
 This repository contains random applications written in C# and some
 documentation I learnt for the OOP exam.
 
