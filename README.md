@@ -14,4 +14,4 @@ documentation I learnt for the OOP exam.
 # License
 Developed with C# and :broken_heart:.
 
-All the stuff is licensed under the [The KINDLY License](http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015).
+All the stuff is licensed under [The KINDLY License](http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2015).
