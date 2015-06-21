@@ -1,15 +1,15 @@
-# Learning C#
+# Learning C# 
 This repository contains random applications written in C# and some
 documentation I learnt for the OOP exam.
 
- - [1. Introduction.md](/docs/1. Introduction.md)
- - [2. What is C-sharp.md](/docs/2. What is C-sharp.md)
- - [3. Variables.md](/docs/3. Variables.md)
- - [4. Instructions and Exceptions.md](/docs/4. Instructions and Exceptions.md)
- - [5. Methods and parameters.md](/docs/5. Methods and parameters.md)
- - [6. Arrays.md](/docs/6. Arrays.md)
- - [7. Inheritance.md](/docs/7. Inheritance.md)
- - [8. Operator Overloading.md](/docs/8. Operator Overloading.md)
+ - [1. Introduction](/docs/1. Introduction.md)
+ - [2. What is C-sharp](/docs/2. What is C-sharp.md)
+ - [3. Variables](/docs/3. Variables.md)
+ - [4. Instructions and Exceptions](/docs/4. Instructions and Exceptions.md)
+ - [5. Methods and parameters](/docs/5. Methods and parameters.md)
+ - [6. Arrays](/docs/6. Arrays.md)
+ - [7. Inheritance](/docs/7. Inheritance.md)
+ - [8. Operator Overloading](/docs/8. Operator Overloading.md)
  - [9. Object collections](/docs/9. Object collections.md)
  - [10. Algorithm Analysis](/docs/10. Algorithm Analysis.md)
  - [11. Sort](/docs/11. Sort.md)
