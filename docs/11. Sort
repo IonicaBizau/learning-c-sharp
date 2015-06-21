@@ -1,6 +1,6 @@
 # Sort
 
-### Methods
+## Methods
 
  - `sort<T>(T[] a)`
  - `less<T>(T p, T q)`
@@ -8,12 +8,12 @@
  - `show<T>(T[] a)`
  - `isSorted(T[] a)`
 
-### Implementation
+## Implementation
 
  - using `less(...)` and `exch(...)` which are easy to implement because of `IComparable` (interface)
  - using `isSorted()` to check if the things are sorted
  - performance is important
-   - exchanges
+   - interchanges
    - comparisons
    - how many times an element is accessed for write/read
   - memory
@@ -21,4 +21,22 @@
    - any values supporting `IComparable`
    - `CompareTo()` should imlpement a total relation (reflexive, antisimetric, transitive)
 
+## Sorting algorithms
+### Selection Sort
 
+ - find the lowest element, interchange it with the element on `k`th position (where `k` goes from `0` to `Length - 1`).
+ - performance: `~N^2/2`, not depending on input data, element order
+
+### Insertion Sort
+
+ - move the element on the good place, where the things are already sorted
+ - should move everything to right, creating space
+ - `[0, i]` are sorted, but we don't know if their positions are final
+ - when `i == length - 1`, the vector is sorted
+ - performance: `~N^2/4` comparisons, `~N^2/4` interchanges
+ - the performance depends on input data
+
+### Shell Sort
+
+ - checks `V[i] vs V[i - 1]` and interchanges them
+ - TODO
