@@ -1,0 +1,24 @@
+# Sort
+
+### Methods
+
+ - `sort<T>(T[] a)`
+ - `less<T>(T p, T q)`
+ - `exch<T>(T[] a, int i, int j)`
+ - `show<T>(T[] a)`
+ - `isSorted(T[] a)`
+
+### Implementation
+
+ - using `less(...)` and `exch(...)` which are easy to implement because of `IComparable` (interface)
+ - using `isSorted()` to check if the things are sorted
+ - performance is important
+   - exchanges
+   - comparisons
+   - how many times an element is accessed for write/read
+  - memory
+  - data types
+   - any values supporting `IComparable`
+   - `CompareTo()` should imlpement a total relation (reflexive, antisimetric, transitive)
+
+
