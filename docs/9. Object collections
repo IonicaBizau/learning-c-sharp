@@ -1,0 +1,102 @@
+# Object collections
+
+## Bag
+
+```cs
+class Bag<Item>
+   public Bag()
+   public void add(Item item)
+   public bool isEmpty()
+   public int size()
+```
+
+## Queue
+
+```cs
+class Queue<Item>
+   public Queue()
+
+   // Add to the end
+   public void enqueue(Item item)
+
+   // Remove from the end
+   public void dequeue()
+
+   public bool isEmpty()
+
+   public int size()
+```
+
+## Stack
+
+```cs
+class Stack<Item>
+   public Stack()
+
+   // Add to the end
+   public void push(Item item)
+
+   // Remove the last added
+   public void pop()
+
+   public bool isEmpty()
+
+   public int size()
+```
+
+## Linked lists
+
+In short, a bunch of `Node`s linked together.
+
+### A `Node` class
+
+```cs
+public class Node {
+    // Next node reference
+    public Node next;
+    // Data
+    public Object data;
+}
+```
+
+### The `LinkedList` class
+
+```cs
+public class LinkedList {
+    private Node head = null;
+
+    // Add some convenient methods
+    public void AddLast (object data) {
+        if (head == null) {
+            head = new Node();
+            head.data = data;
+        } else {
+            Node n = new Node();
+            n.data = data;
+
+            Node c = head;
+            while (c.next != null) {
+                c = c.next;
+            }
+
+            c.next = n;
+        }
+    }
+
+    public void AddFirst (object data) {
+        Node n = new Node ();
+        n.data = data;
+        n.next = head;
+        head = n;
+    }
+
+    public void printAllNodes() {
+        Node c = head;
+        while (c != null)
+        {
+            Console.WriteLine(c.data);
+            c = c.next;
+        }
+    }
+}
+```
