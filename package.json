@@ -25,25 +25,25 @@
   },
   "homepage": "https://github.com/IonicaBizau/learning-c-sharp#readme",
   "blah": {
-      "title": "Learning C# ",
-      "description": [
-          {
-              "ol": [
-                 "[Introduction](/docs/1. Introduction.md)",
-                 "[What is C-sharp](/docs/2. What is C-sharp.md)",
-                 "[Variables](/docs/3. Variables.md)",
-                 "[Instructions and Exceptions](/docs/4. Instructions and Exceptions.md)",
-                 "[Methods and parameters](/docs/5. Methods and parameters.md)",
-                 "[Arrays](/docs/6. Arrays.md)",
-                 "[Inheritance](/docs/7. Inheritance.md)",
-                 "[Operator Overloading](/docs/8. Operator Overloading.md)",
-                 "[Object collections](/docs/9. Object collections.md)",
-                 "[Algorithm Analysis](/docs/10. Algorithm Analysis.md)",
-                 "[Sort](/docs/11. Sort.md)",
-                 "[Priority queue](/docs/12. Priority queue.md)",
-                 "[Search algorithms](/docs/13. Search algorithms.md)"
-              ]
-          }
-      ]
+    "title": "Learning C# ",
+    "description": [
+      {
+        "ol": [
+          "[Introduction](/docs/1. Introduction.md)",
+          "[What is C-sharp](/docs/2. What is C-sharp.md)",
+          "[Variables](/docs/3. Variables.md)",
+          "[Instructions and Exceptions](/docs/4. Instructions and Exceptions.md)",
+          "[Methods and parameters](/docs/5. Methods and parameters.md)",
+          "[Arrays](/docs/6. Arrays.md)",
+          "[Inheritance](/docs/7. Inheritance.md)",
+          "[Operator Overloading](/docs/8. Operator Overloading.md)",
+          "[Object collections](/docs/9. Object collections.md)",
+          "[Algorithm Analysis](/docs/10. Algorithm Analysis.md)",
+          "[Sort](/docs/11. Sort.md)",
+          "[Priority queue](/docs/12. Priority queue.md)",
+          "[Search algorithms](/docs/13. Search algorithms.md)"
+        ]
+      }
+    ]
   }
 }
