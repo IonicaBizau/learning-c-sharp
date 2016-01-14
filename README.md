@@ -1,6 +1,6 @@
-# Learning C#  [![Support this project][donate-now]][paypal-donations]
+# Learning C#  [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/learning-c-sharp.svg)](https://www.npmjs.com/package/learning-c-sharp) [![Downloads](https://img.shields.io/npm/dt/learning-c-sharp.svg)](https://www.npmjs.com/package/learning-c-sharp) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-This repository contains random applications written in C# and some documentation I learnt for the OOP exam.
+> This repository contains random applications written in C# and some documentation I learnt for the OOP exam.
 
  1. [Introduction](/docs/1. Introduction.md)
  2. [What is C-sharp](/docs/2. What is C-sharp.md)
