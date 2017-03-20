@@ -1,6 +1,6 @@
 {
   "name": "learning-c-sharp",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "This repository contains random applications written in C# and some documentation I learnt for the OOP exam.",
   "main": "lib/index.js",
   "directories": {
@@ -18,7 +18,7 @@
     "c-sharp",
     "exercises"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/learning-c-sharp/issues"
@@ -50,12 +50,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
