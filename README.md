@@ -20,6 +20,7 @@
  12. [Priority queue](/docs/12. Priority queue.md)
  13. [Search algorithms](/docs/13. Search algorithms.md)
 
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
