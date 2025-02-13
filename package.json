@@ -1,6 +1,6 @@
 {
   "name": "learning-c-sharp",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "This repository contains random applications written in C# and some documentation I learnt for the OOP exam.",
   "main": "lib/index.js",
   "directories": {
@@ -57,6 +57,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
